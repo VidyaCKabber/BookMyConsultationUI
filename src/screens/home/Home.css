@@ -1,0 +1,44 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.tab-content {
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as per your design */
+    margin: 0 auto;
+}
+
+/* Adjust the styles for the tabs to take full width */
+.MuiTabs-root {
+    width: 100%;
+    background-color: #fafafa; /* Example background color */
+    position: fixed;
+    top: 10;
+    z-index: 1;
+}
+
+
+.MuiTabs-flexContainer {
+    justify-content: space-around; /* Distribute tabs across the width */
+}
+
+.MuiTab-root {
+    min-width: unset; /* Allow tabs to expand */
+    width: 50%; /* Ensure tabs take up 50% width each */
+}
+
+.doctors-tab-content {
+    width: 100%;
+    padding: 20px;
+}
+.appointment-tab-content {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+
+

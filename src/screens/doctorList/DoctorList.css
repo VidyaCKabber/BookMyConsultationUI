@@ -1,0 +1,30 @@
+.DoctorsTab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .doctor-paper {
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px; /* Add some space between the buttons */
+    align-items: center;
+    display: flex;
+  }
+  .speciality-dropdown{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 20%;
+  }

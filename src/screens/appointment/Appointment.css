@@ -1,0 +1,19 @@
+/* Appointment.css */
+
+.DoctorsAppointmentTab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.doctor-appointment-paper {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.rate-appointment {
+  margin-top: 10px;
+}

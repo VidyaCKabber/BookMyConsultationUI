@@ -1,0 +1,15 @@
+/* CSS for the paper component */
+.MuiPaper-root {
+  text-align: left; /* Text left-aligned */
+  margin: 15px; /* Margin of 15px */
+  padding: 20px; /* Padding of 20px */
+  cursor: pointer; /* Cursor type pointer */
+}
+
+/* CSS for the card header */
+.card-header {
+  background-color: purple; /* Background color purple */
+  height: 70px; /* Height of 70px */
+  padding: 11px; /* Padding of 11px */
+  color: white; /* Text color white */
+}

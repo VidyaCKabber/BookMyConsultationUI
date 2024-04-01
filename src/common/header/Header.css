@@ -1,0 +1,28 @@
+.header {
+    background-color: purple;
+    height: 70px;
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fix the header position */
+    width: 100%; /* Ensure the header spans the entire width */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Ensure the header is above other elements */
+}
+
+.logo {
+    height: 35px;
+    background-color: #ff7f7f;
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}

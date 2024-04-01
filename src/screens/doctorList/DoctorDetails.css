@@ -1,0 +1,22 @@
+.doctor-details-card {
+    text-align: left;
+    margin: 15px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .card-header {
+    background-color: purple;
+    height: 40px;
+    padding: 11px;
+    color: white;
+  }
+  
+  .card-content {
+    margin-top: 20px;
+  }
+  
+  .close-button {
+    margin-top: 20px;
+  }
+  
